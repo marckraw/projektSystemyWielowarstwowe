@@ -1,0 +1,48 @@
+:host {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100vw;
+    height: 100vh;
+
+    label {
+        width: 100%;
+    }
+
+    .content {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -60%);
+        height: 500px;
+        width: 700px;
+        background-color: white;
+        box-shadow: 10px 10px 50px 0px rgba(0,0,0,0.75);
+        overflow: auto;
+
+        padding: 40px;
+
+        .link-url {
+
+        }
+
+        .link-description {
+            width: 100%;
+        }
+
+        .link-date {
+            width: 100%;
+        }
+
+        .links-modal-footer {
+            margin-top: 30px;
+
+            .buttons {
+                width: 180px;
+                margin: 0 auto;
+            }
+        }
+    }
+
+}
+
+

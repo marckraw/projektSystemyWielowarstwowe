@@ -1,0 +1,27 @@
+:host {
+    > div {
+        padding: 100px;
+    }
+
+    .registrationForm {
+
+        input {
+            width: 80%;
+            margin: 1% 10%;
+            padding: 1%;
+        }
+
+        label {
+            margin-left: 10%;
+        }
+
+        .registrationButtons {
+            float: right;
+            width: 400px;
+        }
+
+        .registrationButtons button {
+            width: 48%;
+        }
+    }
+}

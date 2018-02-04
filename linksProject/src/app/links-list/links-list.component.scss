@@ -1,0 +1,33 @@
+:host {
+    > div {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    width: 100%;
+
+    .links-list__header {
+        position: fixed;
+        left: 50%;
+        top: 40%;
+        button {
+            margin-left: 65px;
+        }
+    }
+
+    .links-list__content {
+        margin: 0 auto;
+        width: 700px;
+
+        .links-list__item {
+            padding: 20px;
+            background-color: lightgrey;
+            border: 1px solid lightslategrey;
+            margin: 20px;
+        }
+    }
+}
+
+
+
+

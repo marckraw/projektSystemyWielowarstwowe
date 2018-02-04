@@ -1,0 +1,73 @@
+.vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+
+    display: flex;
+    align-items: center;
+}
+
+
+.headingContainer {
+    text-align: center;
+}
+
+.headingContainer h1 {
+    font-size: 60px;
+}
+
+.loginContainer {
+    text-align: center;
+}
+
+.loginForm {
+    width: 300px;
+    margin: 0 auto 15px auto;
+}
+
+.loginForm input {
+    width: 94%;
+    padding: 10px;
+    margin: 3%;
+}
+
+.loginForm button {
+    width: 48%;
+}
+
+.cancelButton {
+    margin-right: 1%;
+}
+
+.submitButton {
+    margin-left: 1%;
+}
+
+
+
+
+
+
+
+
+.registrationForm {
+
+}
+
+.registrationForm input {
+    width: 80%;
+    margin: 1% 10%;
+    padding: 1%;
+}
+
+.registrationForm label {
+    margin-left: 10%;
+}
+
+.registrationButtons {
+    float: right;
+    width: 400px;
+}
+
+.registrationButtons button {
+    width: 48%;
+}
